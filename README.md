@@ -1,3 +1,11 @@
 
-uppic，图床上传助手\
-最终想要实现，执行`uppic /pic.png`类似的命令，上传图片，并返回图片在图床中的url
+#### 配置
+创建~/.uppic/config文件，并设置user、repo、token
+```
+user=xxx
+repo=xxx
+token=xxx
+```
+
+#### 使用
+执行`uppic /pic.png`，上传图片，并返回图片的url
